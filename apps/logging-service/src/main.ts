@@ -1,8 +1,10 @@
 import { NestFactory } from '@nestjs/core';
 import { LoggingServiceModule } from './logging-service.module';
+import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(LoggingServiceModule);
-  await app.listen(process.env.port ?? 4000);
+  app.useGlobalPipes(new ValidationPipe());
+  await app.listen(4000);
 }
 bootstrap();
