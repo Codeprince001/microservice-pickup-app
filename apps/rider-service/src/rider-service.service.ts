@@ -2,7 +2,8 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class RiderServiceService {
-  getHello(): string {
-    return 'Hello World!';
+  getRiderById(params: string) {
+    // Logic to get rider by ID
+    return `This action returns a #${params} rider`;
   }
 }
