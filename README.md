@@ -1,6 +1,3 @@
-Perfect! Here’s a polished **GitHub-ready README** with badges, your microservices explanation, and styling:
-
----
 
 # 🚖 Uber-like Microservices Project
 
@@ -139,23 +136,3 @@ apps/
 │       └── logging-service.module.ts
 ```
 
----
-
-## 🚀 Future Improvements
-
-* Add **Passenger Service** for ride requests.
-* Integrate **Kafka or RabbitMQ** for event-driven communication.
-* Implement **JWT-based authentication**.
-* Deploy with **Docker + Kubernetes**.
-
----
-
-## 📜 License
-
-MIT License © 2025
-
----
-
-If you want, I can also **add a section with curl/Postman examples** showing how to **POST coordinates and GET rider info** so that someone can test the microservices right away.
-
-Do you want me to do that?
