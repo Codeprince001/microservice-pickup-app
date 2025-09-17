@@ -63,7 +63,7 @@ Services communicate using **NestJS TCP-based microservices** for high performan
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/uber-microservices.git
+git clone https://github.com/Codeprince001/uber-microservice.git
 cd uber-microservices
 ```
 
