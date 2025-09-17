@@ -3,7 +3,7 @@ import {HydratedDocument} from 'mongoose';
 
 export type RiderCoordinatesDocument = HydratedDocument<RiderCoordinates>;
 
-@Schema()
+@Schema({ collection: 'rider_coordinates' })
 export class RiderCoordinates {
     @Prop({required: true})
     riderId: string;
